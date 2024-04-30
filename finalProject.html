@@ -4,7 +4,20 @@
   
   <title>WEB-115 Final Project</title>
   <style>
+    
+    #banner2{
+      width: 100vw;
+      
+
+      background-color: blue;
+      color: white;
+      padding: 20 px;
+      text-align: center;
+    }
     #banner{
+      width: 100vw;
+      
+
       background-color: blue;
       color: white;
       padding: 20 px;
@@ -15,18 +28,33 @@
  
 <body>
   <div id="banner">
-    <p>Build Your Meal Plan!</p>
-    //replace with <img src="myImage.jpg" alt="Banner Image">
+    <p>Meredith Hess WEB.115.0001</p>
+    <p>BUILD YOUR MEAL PLAN!</p>
+    <img src= "./banner.png" id= "banner2" alt="Banner Image">
   </div>
 <h1></h1>
 <p>Enter your information and create your meal plan!</p>
+<div>
+  <label for="nameInput">Name:</label>
+  <input type="text" id="nameInput" /><br /><br />
 
+  <label for="emailInput">Email:</label>
+  <input type="text" id="emailInput" /><br /><br />
+
+  <label for="goalInput">Weekly Goal:</label>
+  <input type="text" id="goalInput" /><br /><br />
+
+  <button id="submit">SUBMIT</button>
+</div>
+<form name = "scheduleForm">
 
 <div id="infoDiv"></div>
 <div id="scheduleDiv"></div>
-
+  
+</form> 
 
 <script src="projectJS.js"></script>
-
 </body>
 </html>
+
+
